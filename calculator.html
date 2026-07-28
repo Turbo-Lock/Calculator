@@ -1,0 +1,37 @@
+pwdls<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js" defer></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+     <div class="calculator">
+            <input type="text" name="" id="displayVal" placeholder="0000000000000000">
+    <div id="button">
+    <button onclick="showVal('1')">1</button>
+    <button onclick="showVal('2')">2</button>
+    <button onclick="showVal('3')">3</button>
+    <button onclick="showVal('4')">4</button>
+    <button onclick="showVal('5')">5</button>
+    <button onclick="showVal('6')">6</button>
+    <button onclick="showVal('7')">7</button>
+    <button onclick="showVal('8')">8</button>
+    <button onclick="showVal('9')">9</button>
+    <button onclick="showVal('0')">0</button>
+    <button onclick="showVal('*')">*</button>
+    <button onclick="showVal('/')">/</button>
+    <button onclick="showVal('+')">+</button>
+    <button onclick="showVal('-')">-</button>
+    <button onclick="clearInp()" >Clear</button>
+    <button onclick="calculateVal(document.getElementById('displayVal').value)" id="equalBtn">=</button>
+     
+
+     <p id="displayAns"></p>
+     </div>
+     </div>
+</body>
+</html>
